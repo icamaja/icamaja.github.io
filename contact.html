@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haitsam Web</title>
+    <style>
+        /* CSS untuk tampilan halaman */
+        body {
+            background-color: azure;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        div {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a> 
+        <a href="about.html">About me</a>
+    </nav>
+
+    <hr />
+
+    <div>
+        <h1>Contact Me</h1>
+        <form>
+            <label for="email">Email</label><br />
+            <input type="email" name="email" placeholder="Alamat Email" required />
+            <br />
+            <label for="message">Pesan</label><br />
+            <textarea name="message" placeholder="Tulis pesan Anda..." rows="4" required></textarea>
+            <br />
+            <br />
+            <input type="submit" value="Kirim" />
+        </form>
+    </div>
+
+    <hr>
+    <footer>
+        <p>Copyright &copy; 2023 Haitsam Trah Sinatria Dermawan.
+            My Instagram: hvitsvm.tsd
+        </p>
+    </footer>
+</body>
+
+</html>
